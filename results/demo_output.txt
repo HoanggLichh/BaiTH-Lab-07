@@ -1,0 +1,21 @@
+== Ex6Demo ==
+Show goc        : [Concert 1 by Artist X; [Movie 1 (2017); Movie 2 (2018)]] / 350 phut
+Cac show con (1 cap):
+  - Concert 1 by Artist X
+  - [Movie 1 (2017); Movie 2 (2018)]
+Cac show la (de quy):
+  - Concert 1 by Artist X
+  - Movie 1 (2017)
+  - Movie 2 (2018)
+unpack(Movie)   : []
+
+== Ex7Demo ==
+Show goc        : [Concert 1 by Artist X; [Movie 1 (2017); Movie 2 (2018)]] / 350 phut
+Cac show con (1 cap), khong can instanceof:
+  - Concert 1 by Artist X
+  - [Movie 1 (2017); Movie 2 (2018)]
+Cac show la (de quy):
+  - Concert 1 by Artist X
+  - Movie 1 (2017)
+  - Movie 2 (2018)
+unpack(Movie)   : []

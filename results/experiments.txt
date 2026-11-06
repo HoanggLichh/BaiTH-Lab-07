@@ -1,0 +1,10 @@
+Mutation: copy() cua CompositeShow2 tra ve new CompositeShow(...) nhu loi giai mau:
+FAIL  ex6.TestCompositeShow2.testCopyKeepsTypeAndIsDeep: java.lang.AssertionError: expected: <true> but was: <false>
+TOTAL=10 FAILED=1
+
+Loi bien dich khi duyet bien kieu Show (Ex6):
+/tmp/l7e/Bad.java:4: error: for-each not applicable to expression type
+        for (Show sub : s) { System.out.println(sub.description()); }
+                        ^
+  required: array or java.lang.Iterable
+  found:    Show
